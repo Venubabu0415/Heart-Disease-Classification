@@ -1,0 +1,16 @@
+{
+  "name": "heart-disease-prediction-platform",
+  "version": "1.0.0",
+  "description": "AI-Powered Heart Disease Risk Prediction & Clinical Decision Support Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "setup:db": "cd backend && npm run db:migrate"
+  },
+  "keywords": ["heart-disease", "ml", "xgboost", "smote", "healthcare"],
+  "author": "",
+  "license": "MIT"
+}
+
